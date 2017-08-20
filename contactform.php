@@ -5,8 +5,10 @@
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
 		$from = $email; 
-		//$to = 'example@bootstrapbay.com';
-		$to = 'chrishonwyllie@yahoo.com'; 
+		
+		// WARNING: Be sure to change this. This is the address that the email will be sent to
+		$to = 'YOUR_SPECIFIED_EMAIL_ADDRESS'; 
+		
 		$subject = "Message from ".$name." ";
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
