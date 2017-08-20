@@ -12,11 +12,16 @@ These two files must be used in a hosted environment that supports PHP.
 
 
 
-<h2>Examples</h2>
+
 
 <br />
 <br />
 <div id="images">
+<h3>Example in action</h3>
 <img style="display: inline; margin: 0 5px;" src="image1.png" width=“1440" height=“620" />
+
+<br />
+<br />
+<h3>In this example, the submit button was pressed before entering all of the details which displays error messages at all empty fields</h3>
 <img style="display: inline; margin: 0 5px;" src="image2.png" width=“1440” height=“620" />
 </div>
